@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: gurugreen/test:latest
+        image: gurugreen/train-schedule:latest
         ports:
         - containerPort: 80
